@@ -253,7 +253,7 @@ set(DOXYGEN_IN  ${LWIP_DIR}/doc/doxygen/lwip.Doxyfile.cmake.in)
 set(DOXYGEN_OUT ${LWIP_DIR}/doc/doxygen/lwip.Doxyfile)
 configure_file(${DOXYGEN_IN} ${DOXYGEN_OUT})
 
-find_package(Doxygen)
+#find_package(Doxygen)
 if (DOXYGEN_FOUND)
     message("Doxygen build started")
 
